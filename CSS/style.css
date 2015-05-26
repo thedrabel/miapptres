@@ -1,0 +1,39 @@
+/* CSS Document */
+
+div.myheader
+{
+	background-color: #B72528!important;
+	color: #fff!important;
+	font-weight: normal!important;
+}
+div.myheader h1 {
+	padding: 15px 0px!important;
+	margin: 0px 0px 0px 15px!important;
+	font-weight: normal!important;
+	text-align: left!important;
+	font-size: 20px!important;
+}
+div.mycontent
+{
+	margin-top: 30px;
+}
+
+div.mycontent label 
+{
+	text-align: center;
+	width: auto;
+
+}
+div.myfooter
+{
+	background-color:#323232!important;
+	color:#fff!important;
+	font-weight:normal!important;
+}
+
+div.myfooter div.botones a
+{
+	background-color: #323232!important;
+	border: none!important;
+	width: 48%!important;
+}
