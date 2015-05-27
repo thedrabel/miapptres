@@ -1,6 +1,6 @@
 /* CSS Document */
 
-div.myheader, div.myheader a.ui-btn
+div.myheader, div.myheader a.ui-btn, div.myheader a.ui-btn:focus
 {
 	background-color: #268A41!important;
 	color: #fff!important;
