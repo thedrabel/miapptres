@@ -1,13 +1,30 @@
 /* CSS Document */
-
-div.myheader, div.myheader a.ui-btn, div.myheader a.ui-btn:focus
+div.myheader a.ui-btn
+{
+	font-weight: bold!important;
+	border-bottom:8px inset #268A41;
+}
+div.myheader .ui-corner-all
+{
+	margin-top:0px!important;
+}
+a.active {
+	border-bottom:5px groove #fff!important;
+	
+}
+a.standby {
+	border-bottom:5px inset #268A41!important;
+}
+div.myheader, div.myheader a.ui-btn
 {
 	background-color: #268A41!important;
 	color: #fff!important;
-	font-weight: normal!important;
+	font-weight: normal;
 	padding-right:0px;
 	padding-left:0px;
+	padding-bottom:12px;
 	border:none;
+	max-height: 122px;
 }
  
 div.myheader .ui-icon-gear, div.myheader .ui-icon-gear:after, div.myheader .ui-icon-gear:hover {
