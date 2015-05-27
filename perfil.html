@@ -15,21 +15,25 @@
         
 </head>
 <body>
+
 <div data-role="page" id="calculobasal" >
-    <div data-role="header" class="myheader">
+<div data-role="header" class="myheader" data-id="persistent" data-position="fixed">
     <h1>Perfil - Tasa metabólica basal</h1>
+    <div data-role="controlgroup" data-type="horizontal"><a href="#calculobasal" data-transition="slide" data-role="button" data-rel="external">BASAL</a><a href="#actividad" data-transition="slide" data-role="button" data-rel="external">ACTIVIDAD</a><a href="#somatotipo" data-transition="slide" data-role="button" data-rel="external">SOMATOTIPO</a>
+    
     </div>
-    <div data-role="content" class="mycontent">
+    </div>
+    <div data-role="content"  class="mycontent">
       
-        <label for="number">Edad</label>
+        <label for="number">Edad ♙</label>
         <input type="number" name="number" id="number" value=""  />
      
       
-        <label for="number">Altura (cm)</label>
+        <label for="number">Altura (cm) ↑ </label>
         <input type="number" name="number" id="number" value=""  />
       
       
-        <label for="number">Peso (kg)</label>
+        <label for="number">Peso ♨ </label>
         <input type="number" name="number" id="number" value=""  />
       
       
@@ -38,6 +42,35 @@
           <option value="option1">Hombre</option>
           <option value="option2">Mujer</option>
         </select>
+     </div>
+     <div data-role="footer" data-position="fixed" class="myfooter">
+       <div data-role="controlgroup" class="botones"><a href="index.html" data-role="button" data-icon="home" data-iconpos="top"></a><a href="#" data-role="button" data-icon="forward" data-iconpos="top"></a></div>
+    </div>
+</div>
+
+
+<div data-role="page" id="actividad" >
+    <div data-role="header" class="myheader" data-id="persistent" data-position="fixed">
+    <h1>Perfil - Tasa metabólica basal</h1>
+    <div data-role="controlgroup" data-type="horizontal"><a href="#calculobasal" data-transition="slide" data-role="button" data-rel="external">BASAL</a><a href="#actividad" data-transition="slide" data-role="button" data-rel="external">ACTIVIDAD</a><a href="#somatotipo" data-transition="slide" data-role="button" data-rel="external">SOMATOTIPO</a></div>
+    </div>
+    <div data-role="content" class="mycontent">
+      
+       
+     </div>
+     <div data-role="footer" data-position="fixed" class="myfooter">
+       <div data-role="controlgroup" class="botones"><a href="index.html" data-role="button" data-icon="home" data-iconpos="top"></a><a href="#" data-role="button" data-icon="forward" data-iconpos="top"></a></div>
+    </div>
+</div>
+
+<div data-role="page" id="somatotipo" >
+    <div data-role="header" class="myheader" data-id="persistent" data-position="fixed">
+    <h1>Perfil - Tasa metabólica basal</h1>
+    <div data-role="controlgroup" data-type="horizontal"><a href="#calculobasal" data-transition="slide" data-role="button" data-rel="external">BASAL</a><a href="#actividad" data-transition="slide" data-role="button" data-rel="external">ACTIVIDAD</a><a href="#somatotipo" data-transition="slide" data-role="button" data-rel="external">SOMATOTIPO</a></div>
+    </div>
+    <div data-role="content" class="mycontent">
+      
+       
      </div>
      <div data-role="footer" data-position="fixed" class="myfooter">
        <div data-role="controlgroup" class="botones"><a href="index.html" data-role="button" data-icon="home" data-iconpos="top"></a><a href="#" data-role="button" data-icon="forward" data-iconpos="top"></a></div>
