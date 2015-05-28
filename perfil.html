@@ -11,13 +11,14 @@
 		<link rel="stylesheet" type="text/css" href="CSS/style.css">
         <script src="jquery-mobile/jquery-2.1.4.min.js"></script>
         <script src="jquery-mobile/jquery.mobile-1.4.5.min.js"></script>
+        <script src="JS/fastclick.js"></script>
         
         <script>
         $( document ).bind( "mobileinit", function() {
     $.mobile.buttonMarkup.hoverDelay = 50000000
 });</script>
 </head>
-<body>
+<body onLoad="initFastButtons();" id="fastclick">
 
 <div data-role="page" id="calculobasal" >
 <div data-role="header" class="myheader">
