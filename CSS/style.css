@@ -1,21 +1,15 @@
 /* CSS Document */
-div.myheader a.ui-btn
-{
-	font-weight: bold!important;
-	border-bottom:8px inset #268A41;
-}
-div.myheader .ui-corner-all
-{
-	margin-top:0px!important;
-}
 a.active {
-	border-bottom:5px groove #fff!important;
+	border-bottom: 5px groove #fff!important;
+	width: 33%;
 	
 }
 a.standby {
-	border-bottom:5px inset #268A41!important;
+	border-bottom: 5px inset #268A41!important;
+	width: 33%;
+	/* [disabled]display: block; */
 }
-div.myheader, div.myheader a.ui-btn
+div.myheader
 {
 	background-color: #268A41!important;
 	color: #fff!important;
@@ -26,26 +20,6 @@ div.myheader, div.myheader a.ui-btn
 	border:none;
 	max-height: 122px;
 }
- 
-div.myheader .ui-icon-gear, div.myheader .ui-icon-gear:after, div.myheader .ui-icon-gear:hover {
-	background-color:#268A41;
-	border:none!important;
-	box-shadow:none;
-	background-size:22px 22px;
-}
-div.myheader h1 {
-	padding-top: 15px;
-	padding-right: 0px;
-	padding-left: 0px;
-	padding-bottom: 15px;
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-left: 6px;
-	margin-bottom: 0px;
-	font-weight: normal;
-	text-align: left!important;
-	font-size: 20px!important;
-}
 div.mycontent
 {
 	margin-top: 30px;
@@ -53,12 +27,6 @@ div.mycontent
 	/* [disabled]display: block; */
 }
 
-div.mycontent label 
-{
-	text-align: center;
-	width: auto;
-
-}
 div.myfooter
 {
 	background-color:#323232!important;
@@ -66,13 +34,4 @@ div.myfooter
 	font-weight:normal!important;
 }
 
-div.myfooter div.botones a
-{
-	background-color: #323232!important;
-	border: none!important;
-	width: 48%!important;
-}
-.ui-btn {
-	padding-right:0px!important;
-	padding-left:0px!important;
-}
+
