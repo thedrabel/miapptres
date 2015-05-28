@@ -1,37 +1,55 @@
 /* CSS Document */
-a.active {
-	border-bottom: 5px groove #fff!important;
-	width: 33%;
-	
-}
-a.standby {
-	border-bottom: 5px inset #268A41!important;
-	width: 33%;
-	/* [disabled]display: block; */
-}
+
 div.myheader
 {
-	background-color: #268A41!important;
-	color: #fff!important;
-	font-weight: normal;
-	padding-right:0px;
-	padding-left:0px;
-	padding-bottom:12px;
-	border:none;
-	max-height: 122px;
+	background-color: #323232;
+	color: #fff;
+	border: none;
+}
+div.myheader img
+{
+	width:19px;
+	height:19px;
+}
+div.myheader h1 {
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+a.butback{
+	top: 10px;
+	left: 20px;
+}
+div.menuheader {
+	width:100%;
+	position:relative;
+	overflow:visible;
+}
+a.active, a.standby {
+	width: 33.3%;
+	display:block;
+	float:left;
+	text-align:center;
+	color:#fff;
+	text-decoration:none;
+	font-weight:bold;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	letter-spacing:1px;
+	padding:10px 0;
+	font-size:13px;
+}
+a.active {
+	background-color: #3F3F3F;
+	box-shadow:inset 0px 0px 2px 1px #272727
+}
+a.standby {
 }
 div.mycontent
 {
 	margin-top: 30px;
-	/* [disabled]width: auto; */
-	/* [disabled]display: block; */
 }
 
 div.myfooter
 {
-	background-color:#323232!important;
-	color:#fff!important;
-	font-weight:normal!important;
+	background-color:#323232;
+	color:#fff;
+	font-weight:normal;
 }
-
-
