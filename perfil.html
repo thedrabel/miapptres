@@ -12,12 +12,15 @@
         <script src="jquery-mobile/jquery-2.1.4.min.js"></script>
         <script src="jquery-mobile/jquery.mobile-1.4.5.min.js"></script>
         
-        
+        <script>
+        $( document ).bind( "mobileinit", function() {
+    $.mobile.buttonMarkup.hoverDelay = 50000000
+});</script>
 </head>
 <body>
 
 <div data-role="page" id="calculobasal" >
-<div data-role="header" class="myheader" data-id="persistent" data-position="fixed">
+<div data-role="header" class="myheader">
     <h1>Perfil - Tasa metabólica basal</h1>
     <div data-role="controlgroup" data-type="horizontal" class="menuperfil">
     <a href="#"  data-role="button" data-transition="slidedown" class="active">BASAL</a>
@@ -26,34 +29,16 @@
     
     </div>
     </div>
-    <div data-role="content"  class="mycontent" data-position="fixed">
-      
-        <label for="number">Edad ♙</label>
-        <input type="number" name="number" id="number" value=""  />
-     
-      
-        <label for="number">Altura (cm) ↑ </label>
-        <input type="number" name="number" id="number" value=""  />
-      
-      
-        <label for="number">Peso ♨ </label>
-        <input type="number" name="number" id="number" value=""  />
-      
-      
-        <label for="selectmenu" class="select">Sexo</label>
-        <select name="selectmenu" id="selectmenu">
-          <option value="option1">Hombre</option>
-          <option value="option2">Mujer</option>
-        </select>
+    <div data-role="content"  class="mycontent">
      </div>
-     <div data-role="footer" data-position="fixed" class="myfooter">
+     <div data-role="footer" class="myfooter">
        <div data-role="controlgroup" class="botones"><a href="index.html" data-role="button" data-icon="home" data-iconpos="top"></a><a href="#" data-role="button" data-icon="forward" data-iconpos="top"></a></div>
     </div>
 </div>
 
 
 <div data-role="page" id="actividad" >
-    <div data-role="header" class="myheader" data-id="persistent" data-position="fixed" >
+    <div data-role="header" class="myheader" >
     <h1>Perfil - Tasa metabólica basal</h1>
     <div data-role="controlgroup" data-type="horizontal">
     <a href="#calculobasal"  data-role="button" data-transition="slidedown" class="standby">BASAL</a>
@@ -62,8 +47,8 @@
     
     </div>
     </div>
-    <div data-role="content" class="mycontent" data-position="fixed">
-      <label for="number">Edadeee ♙</label>
+    <div data-role="content" class="mycontent" >
+      <!--<label for="number">Edadeee ♙</label>
         <input type="number" name="number" id="number" value=""  />
      
       
@@ -79,16 +64,16 @@
         <select name="selectmenu" id="selectmenu">
           <option value="option1">Hombre</option>
           <option value="option2">Mujer</option>
-        </select>
+        </select>-->
        
      </div>
-     <div data-role="footer" data-position="fixed" class="myfooter">
+     <div data-role="footer" class="myfooter">
        <div data-role="controlgroup" class="botones"><a href="index.html" data-role="button" data-icon="home" data-iconpos="top"></a><a href="#" data-role="button" data-icon="forward" data-iconpos="top"></a></div>
     </div>
 </div>
 
 <div data-role="page" id="somatotipo" >
-    <div data-role="header" class="myheader" data-id="persistent" data-position="fixed">
+    <div data-role="header" class="myheader" >
     <h1>Perfil - Tasa metabólica basal</h1>
     <div data-role="controlgroup" data-type="horizontal">
     <a href="#calculobasal"  data-role="button" data-transition="slidedown" class="standby">BASAL</a>
@@ -97,27 +82,11 @@
     
     </div>
     </div>
-    <div data-role="content" class="mycontent" data-position="fixed">
-      <label for="number">Edadddd ♙</label>
-        <input type="number" name="number" id="number" value=""  />
-     
+    <div data-role="content" class="mycontent" >
       
-        <label for="number">Alturasss (cm) ↑ </label>
-        <input type="number" name="number" id="number" value=""  />
-      
-      
-        <label for="number">Pesoaaa ♨ </label>
-        <input type="number" name="number" id="number" value=""  />
-      
-      
-        <label for="selectmenu" class="select">Sexo</label>
-        <select name="selectmenu" id="selectmenu">
-          <option value="option1">Hombre</option>
-          <option value="option2">Mujer</option>
-        </select>
        
      </div>
-     <div data-role="footer" data-position="fixed" class="myfooter">
+     <div data-role="footer"  class="myfooter">
        <div data-role="controlgroup" class="botones"><a href="index.html" data-role="button" data-icon="home" data-iconpos="top"></a><a href="dieta.html" data-role="button" data-icon="forward" data-iconpos="top"></a></div>
     </div>
 </div>
