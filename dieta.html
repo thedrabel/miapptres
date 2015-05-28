@@ -7,14 +7,18 @@
         <meta charset="utf-8">
         
         <link rel="stylesheet" type="text/css" href="jquery-mobile/jquery.mobile.structure-1.4.5.min.css">
-        <link rel="stylesheet" type="text/css" href="jquery-mobile/jquery.mobile.theme-1.4.5.min.css">
-		<link rel="stylesheet" type="text/css" href="jquery-mobile/jquery.mobile.icons-1.4.5.min.css">
    		<link rel="stylesheet" type="text/css" href="CSS/style.css">
         <script src="jquery-mobile/jquery-2.1.4.min.js"></script>
         <script src="jquery-mobile/jquery.mobile-1.4.5.min.js"></script>
-       
-    </head>
-    <body>
+       <script src="JS/fastclick.js"></script>
+    <script type="application/javascript">
+        window.addEventListener('load', function () {
+		FastClick.attach(document.body);
+	}, false);</script>
+
+        
+</head>
+<body>
     <div data-role="page" id="page2" >
     <div data-role="header" class="myheader">
       <button data-icon="gear" data-iconpos="notext" style="margin:20px 0 0 5px!important;">Botón</button>
