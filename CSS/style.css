@@ -16,6 +16,9 @@ a.butback{
   background-color: #323232;
   float: left;
   position: relative;
+  box-shadow: 1px 1px 0px 1px #000;
+    border-bottom: 1px solid #575757;
+	border-right: 1px solid #575757;
 }
 div.myheader img 
 {
@@ -32,6 +35,10 @@ div.myheader h1 {
   display: block;
   margin: 7px 0 0 7px;
   padding: 16px 0;
+  box-shadow: 1px 1px 0px 1px #000;
+  text-transform:uppercase;
+    border-bottom: 1px solid #575757;
+	border-right: 1px solid #575757;
 }
 
 a.active, a.standby {
@@ -55,10 +62,12 @@ a.standby {
   margin-left: 7px;
   margin-top: 0px;
   top: 5px;
+  text-transform:lowercase;
 }
 div.mycontent
 {
 	margin-top: 90px;
+	position:relative;
 }
 
 div.myfooter
