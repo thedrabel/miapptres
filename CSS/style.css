@@ -2,23 +2,24 @@
 
 div.myheader
 {
+	background-color:#fff;
 	color: #fff;
   border: none;
-  margin-left: 7px;
-  height: 122px;
+  padding:0 7px;
+  height: 109px;
   position: fixed;
   width: 100%;
+  z-index:1;
 }
 a.butback{
-	top: 7px;
-  left: 0px;
+	  top: 7px;
+  left: 7px;
   padding: 15px;
   background-color: #323232;
   float: left;
-  position: relative;
-  box-shadow: 1px 1px 0px 1px #000;
-    border-bottom: 1px solid #575757;
-	border-right: 1px solid #575757;
+  position: absolute;
+  z-index: 1;
+  border-right: 6px solid #fff;
 }
 div.myheader img 
 {
@@ -27,22 +28,21 @@ div.myheader img
 	background-color: #323232;
 }
 div.myheader h1 {
-	  text-align: center;
+text-align: center;
   font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
   background-color: #323232;
   float: left;
-  width: 82.9%;
+  /* width: 82.9%; */
   display: block;
   margin: 7px 0 0 7px;
   padding: 16px 0;
-  box-shadow: 1px 1px 0px 1px #000;
-  text-transform:uppercase;
-    border-bottom: 1px solid #575757;
-	border-right: 1px solid #575757;
+  text-transform: uppercase;
+  min-width: 99%;
+  position: absolute;
 }
 
 a.active, a.standby {
-	width: 48%;
+	width: 49%;
 	display:block;
 	float:left;
 	text-align:center;
@@ -55,19 +55,21 @@ a.active, a.standby {
 	font-size:13px;
 }
 a.standby {
-	  background-color: #565656;
-  float: left;
-  position: relative;
-  left: 0;
-  margin-left: 7px;
-  margin-top: 0px;
-  top: 5px;
-  text-transform:lowercase;
+	background-color: #D7191F;
+	float: left;
+	position: relative;
+	left: 0;
+	margin-left: 7px;
+	top: 65px;
+	margin-top: 0px;
+	text-transform: lowercase;
 }
 div.mycontent
 {
-	margin-top: 90px;
-	position:relative;
+	  margin-top: 109px;
+  position: relative;
+  background-color: #F0F0F0;
+  text-align:center;
 }
 
 div.myfooter
